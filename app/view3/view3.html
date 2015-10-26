@@ -1,0 +1,28 @@
+<p>This is view 3</p>
+
+<div ng-controller="View3Ctrl as view3">
+
+  <p>Tab: {{view3.tab}}</p>
+
+  <button ng-click="view3.setTab(2)">Set tab = 2</button>
+  <button ng-click="view3.setTab(3)">Set tab = 3</button>
+  <button ng-click="view3.setTab(10)">Set tab = 10</button>
+
+  <button ng-click="view3.setTab(-2)">Set tab = -2</button>
+  <button ng-click="view3.plusTab()">tab +1</button>
+</div>
+
+<br>
+
+<div ng-controller="mapsAPI">
+
+  <ui-gmap-google-map center='map.center' zoom='map.zoom'></ui-gmap-google-map>
+
+</div>
+
+<br>
+
+<div ng-controller="n3Chart" class='container-test'>
+  <linechart data="data" options="options">
+  </linechart>
+</div>

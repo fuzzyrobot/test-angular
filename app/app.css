@@ -28,3 +28,13 @@
   content: "";
   padding: 0;
 }
+
+.angular-google-map-container { height: 400px; }
+
+.btn.btn-primary {
+  margin-bottom: 40px;
+}
+
+.container-test {
+
+}
